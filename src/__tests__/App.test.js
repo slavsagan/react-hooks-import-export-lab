@@ -7,5 +7,7 @@ test("it renders without crashing", () => {
     expect(() => render(<App />)).not.toThrow();
   } catch (e) {
     throw new Error("Make sure to import the required components!");
+    
   }
+  
 });
